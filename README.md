@@ -31,8 +31,8 @@ and tell the person sitting next to you what your guess is.
 
    |                        | `str` | `list` | `deque` |
    | ---------------------- | ----- | ------ | ------- |
-   | `check_palindrome_1`   |  O(n) |        |   63.3      |
-   | `check_palindrome_2`   |       |        |         |
+   | `check_palindrome_1`   |  O(n) |  O(n)  |  O(nˆ2) |
+   | `check_palindrome_2`   |  O(n) |  O(n)  |  O(nˆ2) |
 
    **HINT:**
    The runtimes for indexing into a string are the same as those for indexing a list, which is O(1).
